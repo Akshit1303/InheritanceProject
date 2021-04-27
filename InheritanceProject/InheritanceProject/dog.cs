@@ -17,12 +17,16 @@ namespace InheritanceProject
             Domestication = true;
             breedName = Breed_Name;
         }
-        public override void Sound()
+        public  void DogSound()
         {
             base.Sound();
             Console.WriteLine("Woof! Woof!");
 
         }
-         
+         public void doActivity()
+        {
+            base.Play();
+            Console.WriteLine("Dogs are great pets!");
+        }
     }
 }

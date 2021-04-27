@@ -12,7 +12,7 @@ namespace InheritanceProject
         {
             //Different dog breeds shown with inheritance
 
-            
+            Console.WriteLine("Listen to Dogs and Wolves!");
 
         }
     }

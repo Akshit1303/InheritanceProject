@@ -13,10 +13,14 @@ namespace InheritanceProject
             SpeciesName = "Canis Lupus";
             Domestication = false;
         }
-        public override void Sound()
+        public void WolfSound()
         {
             base.Sound();
             Console.WriteLine("Awwwoooooo!");
+        }
+        public void Prey()
+        {
+            Console.WriteLine("Finding prey is easy ;)");
         }
     }
 }
